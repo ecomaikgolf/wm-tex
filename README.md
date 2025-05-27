@@ -7,7 +7,7 @@ Automatically reference a URL with the wayback machine in BibTeX
 ```
 $ wm-tex http://google.com
 
-@misc{xxx98},
+@misc{xxx98,
   title   = {{}},
   author  = {},
   day     = {11},

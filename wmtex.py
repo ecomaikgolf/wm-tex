@@ -7,7 +7,7 @@ user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:138.0) Gecko/20100101 Firefox/1
 
 def print_bibtex(url: str, wurl: str, n: datetime.datetime, o: datetime.datetime):
     hp = '\\href{' + wurl + '}{' + url + '}'
-    print(f"""@misc{{xxx{o.strftime('%Y')[2:4]}}},
+    print(f"""@misc{{xxx{o.strftime('%Y')[2:4]},
   title   = {{{{}}}},
   author  = {{}},
   day     = {{{o.strftime('%d')}}},
