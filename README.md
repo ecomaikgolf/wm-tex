@@ -35,3 +35,8 @@ Don't have `uv`? https://docs.astral.sh/uv/getting-started/installation
 ```
 pip install wm-tex
 ```
+
+## Reference
+
+- https://github.com/ecomaikgolf/wm-tex
+- https://pypi.org/project/wm-tex/
